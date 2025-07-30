@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza online</title>
+    <link rel="shortcut icon" href="lol/download.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <div class="container">
+   <!-- header -->
+     
+    <header>
+        <h1>Form pemesanan pizza</h1>
+        <p> <i>pizza enak,lezat dan cepat saji siap di antar ke rumah kalian dengan capat~🍕</i></p>
+        <nav>
+            <a href="#menu">lihat menu</a>
+            <a href="#order">pesan sekarang</a>
+            <a href="#contact">kontak kami</a>
+        </nav>
+        <hr>
+    </header>
+    <!--section:promo-->
+    <section>
+      <h2>promo</h2>
+      <img src="lol/promo.jpg" alt="promo pizza">
+      <p><mark><strong>beli 1 gratis 1</strong></mark>untuk semua pizza ukuran besar</p>
+      
+      <ol>
+          <li>Rotinya empuk</li>
+          <li>harga terjangkau</li>
+          <li>delivery cepat</li>
+      </ol>
+    </section>
+    <!-- section menu -->
+      <section id="menu">
+        <h2>menu pizza</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>nama</th>
+                    <th>ukuran</th>
+                    <th>harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pizza pepperoni</td>
+                    <td>besar</td>
+                    <td>Rp 50.000</td>
+                </tr>
+                <tr>
+                    <td>pizza mozarella</td>
+                    <td>kecil</td>
+                    <td>Rp 40.000</td>
+                </tr>
+                <td>chicken pizza</td>
+                <td>sedang</td>
+                <td>Rp 45.000</td>
+            </tbody>
+        </table>
+      </section>
+      <!-- form pemesanan -->
+       <section id="order">
+           <h2>Formulir pemesanan</h2>
+           <form action="">
+                <label for="nama">nama anda:</label>
+                <input name="nama" type="text">
+                <br>
+                <br>
+                <label for="email">email :</label>
+                <input name="email" type="email">
+                <br>
+                <br>
+                <label for="ukuran">ukuran pizza :</label>
+                <select name="ukuran" id="u">
+                    <option value="silahkan pilih ukuran"></option>
+                    <option value="besar">Besar</option>
+                    <option value="sedang">Sedang</option>
+                    <option value="kecil">Kecil</option>
+                </select>
+            
+                <br>
+                <br>
+                <label for="topping">pilih topping</label>
+                <input type="checkbox"nama="topping"value="keju">keju
+                <input type="checkbox"nama="topping"value="jamur">jamur
+                <input type="checkbox"nama="topping"value="sosis">sosis
+                <input type="checkbox"nama="topping"value="salsa">salsa
+                <br>
+                <br>
+                <label for="jenis">jenis pizza</label>
+                <input type="radio"name="jenis"value="pepperoni">pepperoni
+                 <input type="radio"name="jenis"value="vegetarian">vegetarian
+                  <input type="radio"name="jenis"value="BBQ chicken">BBQ chicken
+                  <br>
+                  <br>
+                  <label for="catatan"></label>
+                  <br>
+                  <textarea name="catatan" id="catatan" rows="4" cols="30" placeholder="contoh:tanpa sambal"></textarea>
+                  <br>
+                  <br>
+                  <button type="submit">pesan sekarang</button>
+           </form>
+       </section>
+       <!-- section:kontak -->
+        <section id="contact">
+            <h2>kontak kami</h2>
+            <p>📍Jl.soekarno No.1,jakarta</p>
+            <p>📞<b>0857-3345-272</b></p>
+            <p>Emali:<a href="mailto:info@pizzalezat.com">info@pizzalezat.com</a></p>
+        </section>
+
+        <!-- footer -->
+         <footer>
+            <hr>
+            <p><small>&copy;2025 pizzalezat.All rights reserved.</small></p>
+         </footer>
+         </div>
+</body>
+</html>
